@@ -9,7 +9,7 @@ function addEmployee(event) {
       const annualSalary = document.querySelector("#annualSalaryInput").value;
       let tableBody = document.querySelector("#employeeList tbody");
   
-      // Add the new affirmation to the table
+      // Add the new employee to the table
       tableBody.innerHTML += `
         <tr>
           <td>${firstName}</td>
@@ -18,9 +18,12 @@ function addEmployee(event) {
           <td>${jobTitle}</td>
           <td>${annualSalary}</td>
           <td>
-            <button onClick="deleteEmployee(event)">❌</button>
+            <button onClick="removeEmployee(event)">❌</button>
           </td>
         </tr>
       `;
-  
+    }
+
+    function removeEmployee(event) {
+        event.target.parentNode.parentNode.remove();
     }
