@@ -18,12 +18,22 @@ function addEmployee(event) {
           <td>${jobTitle}</td>
           <td>${annualSalary}</td>
           <td>
-            <button onClick="removeEmployee(event)">❌</button>
+            <button onClick="removeEmployee(event)">FIRED!🔥</button>
           </td>
         </tr>
       `;
     }
 
+
+    function clearFields(event) {
+        let allInputs = document.querySelectorAll('input')
+        allInputs.forEach(singleInput => singleInpute.value = 'placeholder')
+    }
+
     function removeEmployee(event) {
         event.target.parentNode.parentNode.remove();
+    }
+
+    function monthlyCost (event) {
+        
     }

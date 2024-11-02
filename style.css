@@ -60,12 +60,12 @@ body {
   
   /* TABLE */
   table {
-    width: 760px;
+    width: 930px;
     text-align: left;
     margin-bottom: 2rem;
   }
   table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     border-collapse: collapse;
     height: 2.15em;
   }
@@ -74,12 +74,12 @@ body {
     min-width: 3.5em;
   }
   thead {
-    background: #5864af;
+    background: #171e4b;
     color: #fcfcfc;
   }
   tbody tr:nth-child(odd){
     background: #313b78;
   }
   tbody tr:nth-child(even){
-    background: #171e4b;
+    background: #5864af;
   }
