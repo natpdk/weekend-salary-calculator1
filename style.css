@@ -1,0 +1,85 @@
+/* GLOBAL TYPOGRAPHY */
+body {
+    background-color: #b2baec;
+    font-family: 'Roboto', sans-serif;
+    color: #313131;
+    font-size: 1.25em;
+  }
+  
+  
+  /* FLEXBOX LAYOUT */
+  html, body {
+    min-height: 100vh;
+    margin: auto;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    height: 8em;
+    background-color: #5864af;
+    text-align: center;
+  }
+  main {
+    flex: auto;
+    max-width: 80%;
+    margin: auto;
+  }
+  footer {
+    height: 8em;
+    background-color: #5864af;
+    text-align: center;
+  }
+  
+  
+  /* HEADER/FOOTER */
+  header, footer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  
+  /* FORM ELEMENTS */
+  input {
+    padding: .5em;
+    width: 150px;
+    background: #FCFCFC;
+    border: 1px solid;
+  }
+  button {
+    padding: .5em;
+    width: 75px;
+  }
+  
+  
+  /* TABLE */
+  table {
+    width: 760px;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 2.15em;
+  }
+  th, td {
+    padding: .5em;
+    min-width: 3.5em;
+  }
+  thead {
+    background: #7a7a7a;
+    color: #fcfcfc;
+  }
+  tbody tr:nth-child(odd){
+    background: #fcfcfc;
+  }
+  tbody tr:nth-child(even){
+    background: #dcdcdc;
+  }
