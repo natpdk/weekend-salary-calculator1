@@ -1,4 +1,4 @@
-function addEmployeeevent(event) {
+function addEmployee(event) {
     // Stop default behavior
     event.preventDefault();
       // Get the inputs and table

@@ -78,8 +78,8 @@ body {
     color: #fcfcfc;
   }
   tbody tr:nth-child(odd){
-    background: #fcfcfc;
+    background: #313b78;
   }
   tbody tr:nth-child(even){
-    background: #dcdcdc;
+    background: #171e4b;
   }
