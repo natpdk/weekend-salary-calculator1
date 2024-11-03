@@ -32,6 +32,9 @@ body {
     text-align: center;
   }
   
+  .footer-exceeded {
+    background-color: #a74444; /* cost exceeded color */
+}
   
   /* HEADER/FOOTER */
   header, footer {

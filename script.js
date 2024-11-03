@@ -44,4 +44,10 @@ function monthlyCost(salaryChange) {
     let currentTotal = parseFloat(totalMonthly.innerText) || 0;
     const newTotal = currentTotal + (salaryChange / 12);
     totalMonthly.innerText = newTotal.toFixed(2)
+//This is to change the css of the footer if we exceed the cost.
+    if (newTotal > 20000) {
+        footer.classList.add('footer-exceeded');
+    } else {
+        footer.classList.remove('footer-exceeded');
+    }
 }
