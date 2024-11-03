@@ -13,13 +13,15 @@
   <main>
     <section>
       <h2>Add Employee</h2>
-      <form>
-        <input id="firstNameInput" placeholder="First Name" type="text">
-        <input id="lastNameInput" placeholder="Last Name" type="text">
-        <input id="idNumberInput" placeholder="ID Number" type="text">
-        <input id="jobTitleInput" placeholder="Job Title" type="text">
-        <input id="annualSalaryInput" placeholder="Annual Salary" type="text">
-        <button onClick="addEmployee(event)">Submit</button>
+      <form id ='employeeForm' onsubmit="addEmployee(event)">
+     
+        <input type = 'text' id="firstNameInput" placeholder="First Name" type="text">
+        <input type = 'text' id="lastNameInput" placeholder="Last Name" type="text">
+        <input type = 'text' id="idNumberInput" placeholder="ID Number" type="text">
+        <input type = 'text' id="jobTitleInput" placeholder="Job Title" type="text">
+        <input type = 'text' id="annualSalaryInput" placeholder="Annual Salary" type="text">
+        <button type = 'submit'>Submit</button>
+        
       </form>
     </section>
 
@@ -44,7 +46,6 @@
         <table></table>
       </section>
   </main>
-
   <footer>
     <p>Total Monthly</p>
   </footer>

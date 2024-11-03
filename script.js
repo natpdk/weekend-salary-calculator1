@@ -22,12 +22,13 @@ function addEmployee(event) {
           </td>
         </tr>
       `;
+      //This will clear the inputs.
+      document.getElementById('employeeForm').reset();
     }
 
 
     function clearFields(event) {
-        let allInputs = document.querySelectorAll('input')
-        allInputs.forEach(singleInput => singleInpute.value = 'placeholder')
+  
     }
 
     function removeEmployee(event) {
@@ -35,5 +36,5 @@ function addEmployee(event) {
     }
 
     function monthlyCost (event) {
-        
+
     }

@@ -19,7 +19,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 
     -DONE: I need to put in a table styling so that the information goes into a table.
 
-    -ALMOST DONE: Create a 'Delete' button to remove an employee from the DOM *** Don't worry about the monthly cost going down with that right now ***
+    -DONE: Create a 'Delete' button to remove an employee from the DOM *** Don't worry about the monthly cost going down with that right now ***
 
     -DONE: I need a JS file and a  CSS file
 
